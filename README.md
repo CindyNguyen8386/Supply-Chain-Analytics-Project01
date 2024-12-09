@@ -62,3 +62,35 @@ While Excel provides a high-level overview and helps establish key performance i
 - **Year, Product Type, State, Shipping Mode, Payment Type:** Allows filtering of data for detailed analysis by different factors.
 
 These visualizations and slicers provide actionable insights for optimizing operations and improving decision-making.
+
+**Insights**
+**1. Top high revenue ( Maharashtra, Uttar Pradesh, Karnataka,Gujarat, Rajastan, Tamil Nadu).**
+- Regions: Maharashtra, Uttar Pradesh, Karnataka, Gujarat, Rajasthan, Tamil Nadu.
+- Challenges: High delayed shipping rates (e.g., Maharashtra: 59%) and uncompleted payments (e.g., 55%).
+- Solutions:
+Supply Chain: Work with third-party logistics to reduce delays (target <50%). Promote reliable shipping modes (e.g., Standard Class).
+Finance: Collaborate with banks to improve cash flow and promote stable payment methods like cash and debit.
+**2. Top Average-Revenue Regions**
+- Regions: Madhya Pradesh, Andhra Pradesh, Bihar, Telangana, West Bengal, Haryana, Chhattisgarh.
+- Challenges: Similar shipping and payment issues as Group 1.
+- Solutions:
+Implement logistics and payment improvements from Group 1.
+Sales: Focus on cross-selling high-potential categories (e.g., Telangana: combine footwear and golf sales).
+Marketing: Boost brand awareness with region-specific campaigns.
+**3. Top Low-Revenue Regions**
+- Regions: Delhi, Punjab, Kerala, Odisha, Jharkhand, Assam, Jammu and Kashmir, Uttarakhand, Puducherry, Chandigarh, Manipur, Tripura.
+- Challenges: Inefficient operations in some regions (sales efficiency <1%).
+= Solutions:
+Phase out low-performing regions.
+Focus on cost-effective strategies in retained areas (e.g., partnerships, targeted promotions).
+
+**Next Steps**
+- Cross-department collaboration (Supply Chain, Finance, Sales).
+- Monitor KPIs for shipping, payments, and revenue.
+- Reallocate resources to high-potential regions.
+- These strategies will address root causes, improve efficiency, and drive growth.
+
+
+
+
+
