@@ -1,90 +1,93 @@
-**Supply Chain Analytics Project **
+# Supply Chain Analytics Project 
 
 The supply chain dataset consists of 6 sheets, each containing over 100 rows of data. These sheets encompass various aspects of the supply chain, including product details, pricing, sales performance, shipping metrics, and cash flow status. The dataset is primarily intended for revenue analysis, with a focus on reducing delays, improving completion rates, and ultimately optimizing the supply chain across different company locations. By leveraging these insights, the goal is to develop tailored sales strategies for each location while enhancing overall supply chain efficiency. 
 
-**Problem Statement**
-1. Current Situation:
+## Problem Statement 
+**1. Current Situation:**
 The company is facing challenges with delayed processes and payment inefficiencies, impacting sales performance across regions.
 
-2. Problems:
+**2. Problems:**
 A meeting involving the Sales Region Manager, Supply Chain, and Finance departments failed to identify the root causes due to a lack of supporting data. Discussions were based on assumptions rather than concrete evidence.
 
-3. Assignment:
+**3. Assignment:**
 The Supply Chain Manager assigned you to collect and analyze data from Sales, Supply Chain, and Finance to uncover the root causes and develop targeted strategies.
 
-4. Goal:
+**4. Goal:**
 Analyze the dataset, which includes product sales, orders, profitability, shipping, and payment process data, to derive actionable insights and recommendations for optimizing supply chain operations and enhancing regional profitability.
 
-**Tools Used**
-- MySQL
-- Excel
-- Power BI
+## Tools Used
+1. MySQL
+2. Excel
+3. Power BI
 
-**My SQL Analysis **
+## My SQL Analysis 
 Using MySQL, I analyzed supply chain data to address key business questions:
-- Total Products Sold by State: Analyzed the total quantity of products sold and revenue generated in each state to assess regional demand and performance.
-- Revenue by Product Type: Evaluated total revenue by product category to identify the most profitable products and prioritize them strategically.
-- Shipping Efficiency by Mode: Assessed delayed rates and cost-effectiveness for each carrier to identify the most efficient shipping mode and improve order completion rates.
-- Order Completion by Product Type: Identified the product types with the highest order completion rates to understand and replicate success factors.
+1. `Total Products Sold by State`: Analyzed the total quantity of products sold and revenue generated in each state to assess regional demand and performance.
+2. `Revenue by Product Type`: Evaluated total revenue by product category to identify the most profitable products and prioritize them strategically.
+3. `Shipping Efficiency by Mode`: Assessed delayed rates and cost-effectiveness for each carrier to identify the most efficient shipping mode and improve order completion rates.
+4. `Order Completion by Product Type`: Identified the product types with the highest order completion rates to understand and replicate success factors.
   
-**Excel Analysis:**
+## Excel Analysis
 I used Excel to perform an overall analysis of the dataset, incorporating VBA to automate the visualization of sales, shipping status, and payment status for each state by product.
 
-1. Sales and Quantity by State:
+**1. Sales and Quantity by State:**
 - Analyzed sales and quantities by state, sorting the data from highest to lowest revenue.
 - Grouped states into three categories: Best Revenue, Average Revenue, and Lowest Revenue.
 - This provided a clear overview of sales distribution across states.
 
-2. Delayed Rate by State:
+**2. Delayed Rate by State:**
 - Analyzed the delayed shipping rate by state, giving insights into shipping performance across regions.
 
-3. Uncompleted Payment Rate by State:
+**3. Uncompleted Payment Rate by State:**
 - Examined the rate of uncompleted payments by state, offering a snapshot of payment process efficiency.
 
 While Excel provides a high-level overview and helps establish key performance indicators (KPIs), a more detailed analysis is needed to develop effective strategies. Moving the data into Power BI allows for deeper insights and more interactive visualizations, aiding in the identification and iteration of optimal strategies.
 
-**POWERBI VISUALIZATION**
+## PowerBI Visualization
 
-**Key Performance Indicators (KPIs):**  
-1️⃣ **Total Revenue:** Measures overall revenue across regions and products.  
-2️⃣ **Total Orders:** Tracks the total number of orders processed.  
-3️⃣ **Delayed Rate:** Shows the percentage of delayed orders, highlighting shipping inefficiencies.  
-4️⃣ **Uncompleted Payment Rate:** Indicates the percentage of orders with incomplete payments, pointing to potential payment process issues.
+**1. Key Performance Indicators (KPIs):****  
+- `Total Revenue` Measures overall revenue across regions and products.  
+- `Total Orders` Tracks the total number of orders processed.  
+- `Delayed Rate` Shows the percentage of delayed orders, highlighting shipping inefficiencies.  
+- `Uncompleted Payment Rate` Indicates the percentage of orders with incomplete payments, pointing to potential payment process issues.
 
-**Charts and Graphs:**  
-- **Revenue by Product:** Visualizes revenue generated by each product, identifying top performers.  
-- **Revenue and Delayed Rate by Shipping Mode:** Compares revenue and delayed rates for each shipping method.  
-- **Revenue and Uncompleted Rate by Payment Type:** Evaluates revenue and uncompleted payments for different payment methods.  
-- **Delayed and On-time Rates by Shipping Mode:** Shows the on-time versus delayed rates for each shipping method.  
-- **Completed, Pending, and Canceled Payment Status by Payment Type:** Categorizes payment status (completed, pending, canceled) by payment method.
+**2. Charts and Graphs**
+- `Revenue by Product` Visualizes revenue generated by each product, identifying top performers.  
+- `Revenue and Delayed Rate by Shipping Mode` Compares revenue and delayed rates for each shipping method.  
+- `Revenue and Uncompleted Rate by Payment Type` Evaluates revenue and uncompleted payments for different payment methods.  
+- `Delayed and On-time Rates by Shipping Mode` Shows the on-time versus delayed rates for each shipping method.  
+- `Completed, Pending, and Canceled Payment Status by Payment Type` Categorizes payment status (completed, pending, canceled) by payment method.
 
-**Interactive Slicers:**  
-- **Year, Product Type, State, Shipping Mode, Payment Type:** Allows filtering of data for detailed analysis by different factors.
+**3. Interactive Slicers**
+- `Year, Product Type, State, Shipping Mode, Payment Type`: Allows filtering of data for detailed analysis by different factors.
 
 These visualizations and slicers provide actionable insights for optimizing operations and improving decision-making.
 
-**Insights**
-**1. Top high revenue ( Maharashtra, Uttar Pradesh, Karnataka,Gujarat, Rajastan, Tamil Nadu).**
+## Insights 
+   
+**1. Top high revenue** 
 - Regions: Maharashtra, Uttar Pradesh, Karnataka, Gujarat, Rajasthan, Tamil Nadu.
 - Challenges: High delayed shipping rates (e.g., Maharashtra: 59%) and uncompleted payments (e.g., 55%).
 - Solutions:
-Supply Chain: Work with third-party logistics to reduce delays (target <50%). Promote reliable shipping modes (e.g., Standard Class).
-Finance: Collaborate with banks to improve cash flow and promote stable payment methods like cash and debit.
+  - Supply Chain: Work with third-party logistics to reduce delays (target <50%). Promote reliable shipping modes (e.g., Standard Class).
+  - Finance: Collaborate with banks to improve cash flow and promote stable payment methods like cash and debit.
+
 **2. Top Average-Revenue Regions**
 - Regions: Madhya Pradesh, Andhra Pradesh, Bihar, Telangana, West Bengal, Haryana, Chhattisgarh.
 - Challenges: Similar shipping and payment issues as Group 1.
 - Solutions:
-Implement logistics and payment improvements from Group 1.
-Sales: Focus on cross-selling high-potential categories (e.g., Telangana: combine footwear and golf sales).
-Marketing: Boost brand awareness with region-specific campaigns.
+  - Implement logistics and payment improvements from Group 1.
+  - Sales: Focus on cross-selling high-potential categories (e.g., Telangana: combine footwear and golf sales).
+  - Marketing: Boost brand awareness with region-specific campaigns.
+
 **3. Top Low-Revenue Regions**
 - Regions: Delhi, Punjab, Kerala, Odisha, Jharkhand, Assam, Jammu and Kashmir, Uttarakhand, Puducherry, Chandigarh, Manipur, Tripura.
 - Challenges: Inefficient operations in some regions (sales efficiency <1%).
-= Solutions:
-Phase out low-performing regions.
-Focus on cost-effective strategies in retained areas (e.g., partnerships, targeted promotions).
+- Solutions:
+  - Phase out low-performing regions.
+  - Focus on cost-effective strategies in retained areas (e.g., partnerships, targeted promotions).
 
-**Next Steps**
+**4. Next Steps**
 - Cross-department collaboration (Supply Chain, Finance, Sales).
 - Monitor KPIs for shipping, payments, and revenue.
 - Reallocate resources to high-potential regions.
